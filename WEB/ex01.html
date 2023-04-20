@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h1>Pedido Pizza</h1>
+        </legend>
+        <form method="get" action="teste.jsp">
+
+            <h3>Nome do Cliente: </h3>
+            <input type="text" name="Primeiro Nome">
+
+
+            <h3>Sabor: </h3>
+            <select name="sabor">
+                <option selected>Selecione o sabor</option>
+                <option value="mussarela">Mussarela</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="marguerita">Marguerita</option>
+            </select>
+
+            <br />
+
+            <h3>Tamanho: </h3>
+            P <input type="radio" name="tamanho" value="p"> R$ 25,99 <br />
+            M <input type="radio" name="tamanho" value="m"> R$ 35,99 <br />
+            G <input type="radio" name="tamanho" value="g"> R$ 45,99 <br />
+
+            <h4>Adicionais: </h4>
+            Borda Recheada <input type="checkbox" name="borda" value="borda"> 
+            Queijo Extra <input type="checkbox" name="queijo" value="queijo">
+            <br />
+            Comentários: 
+            <br />
+            <textarea name="comentarios" cols="30" rows="10"></textarea>
+            <br />
+            <button type="submit">Fazer pedido</button>
+        </form>
+    </fieldset>
+   
+</body>
+
+</html>
