@@ -1,0 +1,71 @@
+.q1, .q2, .q3, .q4 {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    padding: auto;
+    margin: 8px;
+}
+
+.q1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.q2 {
+    position: absolute;
+    right: 0;
+}
+
+
+
+.q3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.q4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img{
+    background: url("google.png");
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+
+.img:hover {
+    background-position: 0px 50px;
+}
+.img:active {
+    background: url("gaia.jpg");
+    display: block;
+    background-size: contain;
+}
+
+.alternada{
+    list-style: upper-alpha ;
+}
+
+.alternada li:nth-child(odd) {
+    background-color: yellow;
+}
+
+.alternada li:nth-child(even) {
+    background-color: red;
+}
+
+.alternada li:hover{
+    font-weight: bolder;
+}
+
+.botao {
+    background-color: red;
+    border-radius: 2px;
+    width: 200px;
+    height: 50px;
+}

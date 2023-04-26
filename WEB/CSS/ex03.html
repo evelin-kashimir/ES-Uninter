@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista CSS</title>
+</head>
+        <script>
+		
+		function changeColor() {
+			var btn = document.getElementById('btn-primario');
+			btn.style.pointerEvents = 'none';
+			btn.style.backgroundColor = '#A7A8AC';
+			btn.style.border = 'solid #A7A8AC';
+			
+		}
+        
+        </script>
+
+<body>
+    <ol class="alternada">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+
+    <a href="https://www.google.com.br" class="botao" id="btn-primario"
+       onclick="changeColor()"
+        target="_blank">Clica aqui </a>
+
+ 
+</body>
+</html>
